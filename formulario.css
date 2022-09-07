@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor1: #5A1978;
+    --cor2: #D27FF9;
+    --cor3: #B934F7;
+    --cor4: #653D78;
+    --cor5: #962AC7;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: var(--cor1);
+    margin-left: 7%;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: var(--cor4);
+    margin-left: 10%;
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--cor5);
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+fieldset {
+    border: 0;
+}
+
+.campo label {
+    color: var(--cor5);
+} 
